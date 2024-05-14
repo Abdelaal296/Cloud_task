@@ -4,7 +4,7 @@ pipeline {
         stage('List Files') {
             steps {
                 echo "Hellllllo"
-                sh './test.sh'
+                sh 'test.sh'
             }
         }
     }
